@@ -1,0 +1,1 @@
+This problem seems perfect for a trie. Put the whole dict into the trie, then enumerate substrings of *s* of varying lengths, until a match is made. Then chop continue with *s* substrings from the new start point. It's been a while since I implemented a trie, let's hope I remember all the insertion cases.
